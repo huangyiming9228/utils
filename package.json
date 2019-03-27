@@ -1,0 +1,33 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "js utils",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext .js src",
+    "precommit": "npm run lint",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huangyiming9228/utils.git"
+  },
+  "author": "jarretth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/huangyiming9228/utils/issues"
+  },
+  "homepage": "https://github.com/huangyiming9228/utils#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.0.1",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.15.3",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4"
+  }
+}
